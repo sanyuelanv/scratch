@@ -33,7 +33,8 @@ var canvasDraw = function(canvas,config){
   /*初始化一些数据:为了圆角和交角圆形*/
   ctxt.lineCap = "round";
   ctxt.lineJoin = "round";
-  ctxt.lineWidth = 40;
+  ctxt.lineWidth = config.lineWidth;
+  //console.log(ctxt.lineWidth);
   // 移动
   var move = function( i, changeX, changeY ) {
     ctxt.beginPath();

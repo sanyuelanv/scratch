@@ -21,7 +21,8 @@ class App extends React.Component {
           size:40,
           color:"#959595",
         },
-        precent:0.5 //刮开到多少百分比的时候完全刮开
+        precent:0.5, //刮开到多少百分比的时候完全刮开
+        lineWidth:60, //画笔的大小
 
       })
     }
